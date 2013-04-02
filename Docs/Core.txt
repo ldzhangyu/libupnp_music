@@ -1,0 +1,33 @@
+/*
+* _COPYRIGHT_
+*
+* File Name: Core.txt
+* System Environment: GNU/Linux
+* Created Time: 2013-01-15
+* Author: Johan
+* E-mail: Johaness@qq.com
+* Description: 
+*
+*/
+
+
+void Core_init(void);
+
+
+/**
+ * Core_exit:
+ *
+ * Initialize the Core of the player. Can be used only once.
+**/
+
+void Core_exit(void);
+
+
+/**
+ * Core_Gst_Plugin_Check:
+ *
+ * Initialize the Core of the player. Can be used only once.
+**/
+
+static gboolean Core_Gst_Plugin_Check(void);
+

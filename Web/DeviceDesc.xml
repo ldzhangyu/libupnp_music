@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+<specVersion>
+<major>1</major>
+<minor>0</minor>
+</specVersion>
+<device>
+<deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+<friendlyName>ToWAYetech Multimedia Player(192.168.1.120)</friendlyName>
+<manufacturer>ToWAY electronic Technology Co., Ltd.</manufacturer>
+<manufacturerURL>http://www.ToWAYetech.com</manufacturerURL>
+<modelDescription>ToWAYetech 1.0</modelDescription>
+<modelName>ToWAYetech</modelName>
+<modelNumber>1.0</modelNumber>
+<modelURL>http://www.ToWAYetech.com/Multimedia-Player/</modelURL>
+<serialNumber>201210159001</serialNumber>
+<UDN>uuid:Upnp-ToWAYetech-1_0-2012101590001</UDN>
+<UPC>201210159</UPC>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:RenderingControl.1</serviceId>
+<controlURL>/upnp/control/renderingcontrol1</controlURL>
+<eventSubURL>/upnp/event/renderingcontrol1</eventSubURL>
+<SCPDURL>/RenderingControl.xml</SCPDURL>
+</service>
+<service>
+<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:ConnectionManager.1</serviceId>
+<controlURL>/upnp/control/connectionmanager1</controlURL>
+<eventSubURL>/upnp/event/connectionmanager1</eventSubURL>
+<SCPDURL>/ConnectionManager.xml</SCPDURL>
+</service>
+<service>
+<serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:AVTransport.1</serviceId>
+<controlURL>/upnp/control/avtransport1</controlURL>
+<eventSubURL>/upnp/event/avtransport1</eventSubURL>
+<SCPDURL>/AVTransport.xml</SCPDURL>
+</service>
+</serviceList>
+<presentationURL>/DevicePres.html</presentationURL>
+</device>
+</root>
