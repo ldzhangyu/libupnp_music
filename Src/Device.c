@@ -271,6 +271,7 @@ static int ActionRequest(struct Upnp_Action_Request *event)
 	int retCode = 0;
 	const char *errorString = NULL;
 
+	printf("%s %s\n", __FUNCTION__, event->ServiceID);
 	event->ErrCode = 0;
 	event->ActionResult = NULL;
 
@@ -283,6 +284,8 @@ static int ActionRequest(struct Upnp_Action_Request *event)
 		}
 	}
 
+	printf("count %d\n", Service[service].ActionCount);
+	printf("action %s\n", event->ActionName);
 	for (i = 0; i < Service[service].ActionCount && Service[service].Action->Name[i] != NULL; i++) 
 	{
 		if (!strcmp(event->ActionName, Service[service].Action->Name[i])) 
